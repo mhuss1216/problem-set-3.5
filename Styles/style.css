@@ -1,0 +1,70 @@
+.Index{
+  color:Black;
+  font-family: "Comic Sans", sans-serif;
+  background-image: linear-gradient(120deg, red, white, blue);
+  font-weight: 400;
+}
+
+.MVP{
+  color:Blacl;
+  font-family: "Times New Roman", sans-serif;
+  background-image: linear-gradient(120deg, #0000ff, Ivory);
+  font-weight: 300;
+}
+
+.Winners{
+  color: Black;
+  font-family: "Arial", serif;
+  background-image: linear-gradient(120deg, red, Ivory);
+  font-weight: 300;
+}
+
+a{
+  color:GhostWhite;
+}
+
+img{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2.5%;
+}
+
+#index{
+  width: 1250px;
+  height: 500px;
+}
+
+#value{
+  height: 250px;
+  width: 600px;
+}
+
+#winners{
+    height: 500px;
+    width: 600px;
+}
+
+table{
+  margin-left: 50px;
+}
+
+ol{
+  margin-left: 50px;
+}
+
+thead{
+  margin-left: 50px;
+}
+
+ul{
+  margin-left: 50px;
+}
+
+#link:hover{
+  background-color: purple;
+}
+
+nav:hover{
+  background-color: black;
+}
