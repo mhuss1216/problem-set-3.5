@@ -1,22 +1,33 @@
-.Index{
-  color:Black;
+*{
   font-family: "Comic Sans", sans-serif;
-  background-image: linear-gradient(120deg, red, white, blue);
+}
+
+.Index{
+  color: Black;
+  background-image: radial-gradient(red, white, blue);
   font-weight: 400;
+  font-size: 13;
 }
 
 .MVP{
-  color:Blacl;
-  font-family: "Times New Roman", sans-serif;
+  color: Black;
   background-image: linear-gradient(120deg, #0000ff, Ivory);
   font-weight: 300;
+  font-size: 12;
 }
 
 .Winners{
   color: Black;
-  font-family: "Arial", serif;
   background-image: linear-gradient(120deg, red, Ivory);
   font-weight: 300;
+  font-size: 12;
+}
+
+.Value{
+  color: Black;
+  background-image: linear-gradient(120deg, red, white, blue);
+  font-weight: 300;
+  font-size: 12;
 }
 
 a{
@@ -24,7 +35,6 @@ a{
 }
 
 img{
-  border-style: solid;
   border-color: black;
   border-width: 1px;
   border-radius: 2.5%;
@@ -45,26 +55,76 @@ img{
     width: 600px;
 }
 
-table{
-  margin-left: 50px;
-}
-
 ol{
   margin-left: 50px;
+  font-size: 10px;
 }
 
 thead{
   margin-left: 50px;
+  font-size: 20px;
 }
 
 ul{
   margin-left: 50px;
+  font-size: 10px;
 }
 
 #link:hover{
   background-color: purple;
 }
 
-nav:hover{
-  background-color: black;
+.nav:hover{
+  background-color: Purple;
+  color: Ivory;
+}
+
+nav{
+  font-size: 40px;
+  color: Ivory;
+  font-family: "Comic Sans";
+  text-align:center;
+}
+
+#navbar {
+  font-size: 40px;
+}
+
+h1 {
+  color: Ghostwhite;
+  font-style: oblique;
+}
+
+p{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a:link {
+    color: Purple;
+}
+
+a:visited {
+    color: White;
+}
+
+a:hover {
+    color: White;
+}
+
+a:active {
+    color: Green;
+}
+
+a[class*="nav"]{
+  font-style: italic;
+}
+
+a[id*="link"]{
+  font-style: italic;
+}
+
+img[src*="."]{
+  border-style: solid;
 }
